@@ -13,8 +13,6 @@ body {
     font-size: 14px;
  }
 
-
-
 /* breakpoint*/
 /* se a tela tiver pelo menos 400px vai carregar estes estilos*/
 @media (min-width: 600px) {
