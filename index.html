@@ -10,20 +10,23 @@
     href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Fredericka+the+Great&family=Nixie+One&display=swap"
     rel="stylesheet">
 
+  <script src="https://kit.fontawesome.com/f5227bd232.js" crossorigin="anonymous"></script>
+
 </head>
 
 <body>
   <header>
     <nav class="menu">
       <ul>
-        <li><a href="https://www.instagram.com/juliana.zambon/">Instagram</a></li>
-        <li><a href="#">Portfólio</a></li>
-        <li><a href="https://twitter.com/Juh_Zambon">Twitter</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#portfolio">Certificados</a></li>
+        <li><a href="#contato">Contato</a></li>
       </ul>
     </nav>
-    <div>
+    <div class="titulo">
       <h1 class="site-title">Juliana Zambon</h1>
       <h2 class="site-subtitle"> </h2>
+
       <style>
         h4::after {
           content: '|';
@@ -31,7 +34,8 @@
           opacity: 1;
           animation: pisca .7s infinite;
         }
- /*
+
+        /*
         h4::before {
           content: '|';
           margin-left: 5px;
@@ -69,13 +73,103 @@
     typeWriter(texto);
   </script>
 
-   </div>
-  </header>
+  <section class="sobre">
+    <h2>SOBRE</h2>
 
-      <section class="portfólio">
-        <h2>Projetos</h2>
-        <div class="grid">
-    </div> 
-    
+    <figure class="avatar">
+      <img src="./img/sobre.jpeg" alt="Juliana Zambon">
+    </figure>
+
+    <p>
+       Meu nome é Juliana Zambon, tenho 15 anos. Nasci e resido em Curitiba, no Paraná. Atualmente estou cursando o segundo ano do ensino médio no Colégio da Polícia Militar do Paraná. 
+    </p>
+
+    <p>
+      Em 2018 participei da Olimpíada Brasileira de Astronomia e Astronáutica e obtive medalha de ouro, além de ser pré-selecionada para as olímpiadas internacionais da OBA, contudo sem sucesso. Desse modo, interessei-me cada vez mais por participar de concursos, olimpíadas e competições.
+    </p>
+
+    <p>
+      Entrei na área de programação em 2019, quando me surgiu a oportunidade de participar do desafio Change The Game, uma iniciativa do Google Play, voltado para meninas de 15 a 21 anos de todo país para apresentarem ideias de games mobile para serem desenvolvidos. Enviei minha proposta game mobile e fui uma das 800 meninas selecionadas para ganhar uma bolsa online de estudo sobre programação da Alura.
+    </p>
+
+    <p>
+      A partir deste momento comecei a pertencer e a conhecer o âmbito da programação. Estou realizando os cursos que ganhei da bolsa de estudos, realizei um curso de introdução à programação orientada a objetos, da Escola Virtual do Bradesco, o qual me proporcionou uma boa base para inicar os meus estudos em HTML e JavaScript. 
+    </p>
+
+    <p>
+      Outrossim, em 2019 participei do concurso de admissão para o Colégio Militar de Curitiba, ficando em quinto lugar e obtendo a única nota máxima de redação dentre todos os candidatos. Atualmente, durante a pandemia do Covid-19, nesse período de isolamento estou aproveitando para realizar mais cursos e aumentar meu conhecimento, logo, participei da QuarentenaDados realizada pela Alura, 5 dias de aulas online de Ciência de Dados, usando a base de dados do MovieLens e também do Enem. 
+    </p>
+
+    <p>
+      Posteriormente, também participei da Imersão CSS da Alura, na qual aprendi a programar e criar meus site.
+      E sim, este site foi construído durante a <a href="https://www.alura.com.br/imersao-css">Imersão CSS da Alura.</a>
+    </p>
+
+  </section>
+
+  </div>
+  </header>
+  <section class="portfolio" id="portfolio">
+    <h2>CERTIFICADOS</h2>
+    <div class="grid">
+
+      <div class="flip-card">
+      <div class="card">
+        <figure class="card-front">
+          <img class="img-portfolio" src="./img/certificadooba.jpg"
+            alt="Olimpíada Brasileira de Astronomia e Astronáutica">
+          <figcaption>Olimpíada Brasileira de Astronomia e Astronáutica</figcaption>
+        </figure>
+        <div class="card-back">
+          Olimpíada Brasileira de Astronomia e Astronáutica
+        </div>
+      </div>
+    </div>
+
+    <div class="flip-card">
+      <div class="card">
+        <figure class="card-front">
+          <img class="img-portfolio" src="./img/certificadopoo.jpg" alt="Curso de Introdução à POO">
+          <figcaption>Curso de Introdução à POO</figcaption>
+        </figure>
+        <div class="card-back">
+          Curso de Introdução à POO
+        </div>
+      </div>
+    </div>
+
+    <div class="flip-card">
+      <div class="card">
+        <figure class="card-front">
+          <img class="img-portfolio" src="./img/certificadoalura1.jpg" alt="Curso de Lógica de Programação I">
+          <figcaption>Curso de Lógica de Programação I</figcaption>
+        </figure>
+        <div class="card-back">
+          Curso de Lógica de Programação I
+        </div>
+      </div>
+    </div>
+
+    </div>
+
+
+  </section>
+  <section class="contato" id="contato">
+    <h2>CONTATO</h2>
+    <div class="grid icons">
+      <a target="_blank" href="https://github.com/JulianaZambon">
+        <i class="fab fa-github-square"></i>
+      </a>
+      <a target="_blank" href="https://twitter.com/Juh_Zambon">
+        <i class="fab fa-twitter-square"></i>
+      </a>
+      <a href="https://www.instagram.com/juliana.zambon/">
+        <i class="fab fa-instagram"></i>
+      </a>
+    </div>
+  </section>
+
+
 </body>
+
 </html>
